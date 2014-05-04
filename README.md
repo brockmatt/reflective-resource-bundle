@@ -1,12 +1,9 @@
-reflective-resource-bundle
-==========================
+#reflective-resource-bundle#
 
 Utility class that permits self-referencing ResourceBundles
-
-===
+---
 **Update**: Added code to get this working for the Stripes Framework
-===
-
+---
 This was written to address a severe deficiency with Java ResourceBundles: messages cannot reference other messages. This directly, egregiously violates the DRY (don't repeat yourself) programming principle.
 
 Example:
